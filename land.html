@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="land.css">
+    <title>Land Properties</title>
+</head>
+<body >
+
+    <header>
+        <h1>Soil Properties</h1>
+    </header>
+    <main>
+        <div class="input-form">
+            <label for="crop-type">Select Crop:</label>
+            <select id="crop-type">
+                <option value="wheat">Wheat</option>
+                <option value="rice">Rice</option>
+                <option value="corn">Corn</option>
+                <!-- Add more crop options -->
+            </select>
+            <label for="state">Select State:</label>
+            <select id="state">
+                <option value="california">California</option>
+                <option value="texas">Texas</option>
+                <option value="new-york">New York</option>
+                <!-- Add more state options -->
+            </select>
+            <button id="search-button">Search Properties</button>
+        </div>
+        <div id="property-list" class="hidden">
+            <h2>Land Properties:</h2>
+            <ul id="property-results">
+                <!-- Property results will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

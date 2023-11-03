@@ -1,0 +1,239 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #42b983;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 10px;
+}
+
+header .search input {
+    padding: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://media.nationalgeographic.org/assets/photos/120/983/091a0e2f-b93d-481b-9a60-db520c87ec33.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Interactive Options Styles */
+.interactive-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.option {
+    text-align: center;
+    max-width: 300px;
+}
+
+.option img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.option h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.option p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .newsletter input {
+    padding: 5px;
+}
+
+footer .newsletter button {
+    background-color: #42b983;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Header Styles */
+header {
+    background-color: #42b983;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 120px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 10px;
+}
+
+header .search input {
+    padding: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Interactive Options Styles */
+.interactive-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+
+}
+
+.option {
+    text-align: center;
+    max-width: 300px;
+}
+
+.option img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.option h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.option p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .newsletter input {
+    padding: 5px;
+}
+
+footer .newsletter button {
+    background-color: #42b983;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.body{
+    opacity: 0.5;
+}
+
+/* Add more styles as needed */
+
+

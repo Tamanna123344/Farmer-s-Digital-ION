@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather Conditions</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Conditions</h1>
+    
+    </header>
+    <main>
+        <div class="input-form">
+            <label for="crop-type">Select State:</label>
+            <select id="crop-type">
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+                <!-- Add more crop options -->
+            </select>
+            <label for="state">Select City:</label>
+            <select id="state">
+                <option value="california">Jaipur</option>
+                <option value="texas">Mumbai</option>
+                <option value="new-york">Delhi</option>
+                <!-- Add more state options -->
+            </select>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="property-list" class="hidden">
+            <h2>Weather Conditions:</h2>
+            <ul id="property-results">
+                <!-- Property results will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <script src="weather.js"></script>
+</body>
+</html>
